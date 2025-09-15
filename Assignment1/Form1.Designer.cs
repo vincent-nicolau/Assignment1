@@ -110,9 +110,9 @@
             // lblOutput
             // 
             lblOutput.BorderStyle = BorderStyle.FixedSingle;
-            lblOutput.Location = new Point(150, 240);
+            lblOutput.Location = new Point(50, 240);
             lblOutput.Name = "lblOutput";
-            lblOutput.Size = new Size(500, 150);
+            lblOutput.Size = new Size(700, 150);
             lblOutput.TabIndex = 9;
             lblOutput.TextAlign = ContentAlignment.MiddleCenter;
             // 

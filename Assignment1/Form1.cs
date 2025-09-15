@@ -22,7 +22,6 @@ namespace Assignment1
         {
             firstName = txtFirstName.Text.Trim();
             lastName = txtLastName.Text.Trim();
-            
             try
             {
                 hoursWorked = float.Parse(txtHoursWorked.Text);
