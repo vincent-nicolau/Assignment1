@@ -44,29 +44,29 @@
             txtFirstName.Location = new Point(50, 100);
             txtFirstName.Name = "txtFirstName";
             txtFirstName.Size = new Size(200, 23);
-            txtFirstName.TabIndex = 0;
+            txtFirstName.TabIndex = 1;
             // 
             // txtLastName
             // 
             txtLastName.Location = new Point(300, 100);
             txtLastName.Name = "txtLastName";
             txtLastName.Size = new Size(200, 23);
-            txtLastName.TabIndex = 1;
+            txtLastName.TabIndex = 3;
             // 
             // txtHoursWorked
             // 
             txtHoursWorked.Location = new Point(550, 100);
             txtHoursWorked.Name = "txtHoursWorked";
             txtHoursWorked.Size = new Size(200, 23);
-            txtHoursWorked.TabIndex = 2;
+            txtHoursWorked.TabIndex = 5;
             // 
             // btnSummarize
             // 
             btnSummarize.Location = new Point(50, 175);
             btnSummarize.Name = "btnSummarize";
             btnSummarize.Size = new Size(75, 23);
-            btnSummarize.TabIndex = 3;
-            btnSummarize.Text = "Summarize";
+            btnSummarize.TabIndex = 7;
+            btnSummarize.Text = "&Summarize";
             btnSummarize.UseVisualStyleBackColor = true;
             btnSummarize.Click += btnSummarize_Click;
             // 
@@ -75,8 +75,8 @@
             btnClear.Location = new Point(130, 175);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(75, 23);
-            btnClear.TabIndex = 4;
-            btnClear.Text = "Clear";
+            btnClear.TabIndex = 8;
+            btnClear.Text = "&Clear";
             btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += btnClear_Click;
             // 
@@ -86,8 +86,8 @@
             lblFirstName.Location = new Point(50, 85);
             lblFirstName.Name = "lblFirstName";
             lblFirstName.Size = new Size(64, 15);
-            lblFirstName.TabIndex = 5;
-            lblFirstName.Text = "First Name";
+            lblFirstName.TabIndex = 0;
+            lblFirstName.Text = "&First Name";
             // 
             // lblLastName
             // 
@@ -95,8 +95,8 @@
             lblLastName.Location = new Point(300, 85);
             lblLastName.Name = "lblLastName";
             lblLastName.Size = new Size(63, 15);
-            lblLastName.TabIndex = 6;
-            lblLastName.Text = "Last Name";
+            lblLastName.TabIndex = 2;
+            lblLastName.Text = "&Last Name";
             // 
             // lblHoursWorked
             // 
@@ -104,8 +104,8 @@
             lblHoursWorked.Location = new Point(550, 85);
             lblHoursWorked.Name = "lblHoursWorked";
             lblHoursWorked.Size = new Size(83, 15);
-            lblHoursWorked.TabIndex = 7;
-            lblHoursWorked.Text = "Hours Worked";
+            lblHoursWorked.TabIndex = 4;
+            lblHoursWorked.Text = "&Hours Worked";
             // 
             // lblOutput
             // 
@@ -113,7 +113,7 @@
             lblOutput.Location = new Point(150, 240);
             lblOutput.Name = "lblOutput";
             lblOutput.Size = new Size(500, 150);
-            lblOutput.TabIndex = 8;
+            lblOutput.TabIndex = 9;
             lblOutput.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Assignment1

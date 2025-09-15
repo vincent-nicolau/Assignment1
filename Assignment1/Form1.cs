@@ -20,8 +20,8 @@ namespace Assignment1
 
         private void btnSummarize_Click(object sender, EventArgs e)
         {
-            firstName = txtFirstName.Text;
-            lastName = txtLastName.Text;
+            firstName = txtFirstName.Text.Trim();
+            lastName = txtLastName.Text.Trim();
             
             try
             {
@@ -30,10 +30,12 @@ namespace Assignment1
             } 
             catch (FormatException)
             {
-                MessageBox.Show("enter a float value");
+                lblOutput.ForeColor = Color.Red;
+                lblOutput.Text = ("Enter a valid number for Hours Worked.");
                 return;
             }
-            lblOutput.Text = ($"{firstName} {lastName} worked {hoursWorked} hours at a rate of {PAY_RATE} and made {totalPay}.");
+            lblOutput.ForeColor = Color.Black;
+            lblOutput.Text = ($"{firstName} {lastName} worked {hoursWorked} hours at a rate of ${PAY_RATE}/hour and made ${totalPay}.");
         }
 
         private void btnClear_Click(object sender, EventArgs e)
