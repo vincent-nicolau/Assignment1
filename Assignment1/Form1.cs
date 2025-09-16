@@ -4,7 +4,7 @@ namespace Assignment1
     {
         string firstName = "";
         string lastName = "";
-        float hoursWorked = 0;
+        int hoursWorked = 0;
         const float PAY_RATE = 10.50f;
         float totalPay = 0;
 
@@ -24,13 +24,13 @@ namespace Assignment1
             lastName = txtLastName.Text.Trim();
             try
             {
-                hoursWorked = float.Parse(txtHoursWorked.Text);
+                hoursWorked = int.Parse(txtHoursWorked.Text);
                 totalPay = hoursWorked * PAY_RATE;
             } 
             catch (FormatException)
             {
                 lblOutput.ForeColor = Color.Red;
-                lblOutput.Text = ("Enter a valid number for Hours Worked.");
+                lblOutput.Text = ("Enter a valid integer for hours worked.");
                 return;
             }
             lblOutput.ForeColor = Color.Black;
