@@ -1,9 +1,8 @@
 ﻿body {
 }
 .yearbook-titlebar {
-    color: #000000;
-    background-color: #000000;
+    color: #feab00;
+    background-color: #000ace;
     font-size: 32px;
-    font-weight: bold;
     padding: 20px 20px;
 }
